@@ -5,7 +5,7 @@ class Home:
     def __init__(self):
         self.background_im = pygame.image.load('images/menu.png')
         self.howtoplay = ButtonText("HOW TO PLAY", 360,40,(460,500))
-        self.level_list = ["LEVEL: EASY", "LEVEL: MEDIUM", "LEVEL: DIFFICULT"]
+        self.level_list = ["LEVEL: EASY", "LEVEL: MEDIUM", "LEVEL: HARD"]
         self.level_index = 0
         self.level = ButtonText(self.level_list[self.level_index], 360,40,(460,550))
         self.start = ButtonText("START", 360,40,(460,600))

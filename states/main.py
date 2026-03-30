@@ -161,7 +161,7 @@ class Main():
         self.mutated_text_rect = self.mutated_text.get_rect(center = (1034, 90))
         self.tools_text = font.render(f"TOOLS", True , '#2B2b2b')
         font = pygame.font.SysFont("georgiapro", 18, bold = True) 
-        self.level_list = ["LEVEL: EASY", "LEVEL: MEDIUM", "LEVEL: DIFFICULT"]
+        self.level_list = ["LEVEL: EASY", "LEVEL: MEDIUM", "LEVEL: HARD"]
         self.level_difficulty_text = font.render(self.level_list[self.level_index], True , '#2B2b2b')
         self.level_difficulty_rect = self.level_difficulty_text.get_rect(center = (134, 25))
         self.tools_text_rect = self.tools_text.get_rect(center = (134, 90))
