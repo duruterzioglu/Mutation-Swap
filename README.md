@@ -1,6 +1,21 @@
 # Mutation-Swap
 Mutation-Swap is a bioinformatics game designed to inspire high school girls to pursue computer science. The game demonstrates how alignment algorithms can be used to reconstruct mutated chromatids. The user needs to use the 3 given tools (deletion, insertion, duplication) to restore the mutated chromatid to the original with a given maximum number of moves. 
-## How to Run the Game
+## Dependencies
+This project relies on the following external libraries to run:
+* **Python 3.8+**
+* **Pygame** (`v2.6.1`)
+
+Open your terminal and run:
+### Windows
+```bash
+pip install pygame==2.6.1
+```
+### MacOS / Linux
+```bash
+pip3 install pygame==2.6.1
+```
+## Virtual Environment
+Alternatively, you can run the game using the included virtual environment:
 ### Windows
 Open Terminal (PowerShell or Command Prompt) and navigate to the game folder. Run the following command to activate the environment.
 ````
